@@ -1,0 +1,189 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+    background-image: url("../resources/images/BG-IMG.png");
+    background-size: cover;
+}
+
+.pong-header{
+    color: rgb(255, 255, 255);
+    font-size: 250px;
+    font-family: 'Wendy One', sans-serif;
+    font-weight: 600;
+    text-shadow: 5px 5px 6px rgb(255, 0, 0), 0 0 1em blue, 0 0 0.2em rgb(61, 241, 61);
+    padding-top: 10%;
+}
+
+.text-center{
+  height: 100vh;
+}
+
+.credits{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  text-shadow: 1px 1px 1px rgb(255, 0, 0), 0 0 1em blue, 0 0 0.2em rgb(61, 241, 61);
+}
+
+.btn{
+    color: rgba(137, 43, 226, 0.616);
+    box-shadow: 10px 10px 6px red, 0 0 1em blue;
+    width: 15%;
+    font-size: 22px;
+}
+
+.btn:hover{
+    background-color: rgb(126, 0, 243);
+    color: white;
+}
+
+#cog{
+  position: fixed;
+  right: 2%;
+  top:3%;
+  color: white;
+  }
+
+  #cog:hover{
+    color: rgba(255, 255, 255, 0.397);
+    }
+
+.glow {
+    color: rgb(255, 255, 255);
+        font-family: 'Wendy One', sans-serif;
+        letter-spacing: 5px;
+        margin: -80px 0 0 0;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+        animation: move linear 7000ms infinite;  
+        padding-top: 15%;
+      }
+      
+      @keyframes move {
+        0% {
+          text-shadow:
+            10px -10px 0 rgba(255, 0, 0, 1), 
+            9px -9px 0 rgba(255, 0, 0, 1), 
+            8px -8px 0 rgba(255, 0, 0, 1), 
+            7px -7px 0 rgba(255, 0, 0, 1), 
+            6px -6px 0 rgba(255, 0, 0, 1), 
+            5px -5px 0 rgba(255, 0, 0, 1), 
+            4px -4px 0 rgba(255, 0, 0, 1),
+            3px -3px 0 rgba(255, 0, 0, 1),
+            2px -2px 0 rgba(255, 0, 0, 1),
+            1px -1px 0 rgba(255, 0, 0, 1),
+            -10px 10px 0 rgba(25, 0, 255, 1),
+            -9px 9px 0 rgba(25, 0, 255, 1), 
+            -8px 8px 0 rgba(25, 0, 255, 1), 
+            -7px 7px 0 rgba(25, 0, 255, 1),
+            -6px 6px 0 rgba(25, 0, 255, 1), 
+            -5px 5px 0 rgba(25, 0, 255, 1),
+            -4px 4px 0 rgba(25, 0, 255, 1),
+            -3px 3px 0 rgba(25, 0, 255, 1),
+            -2px 2px 0 rgba(25, 0, 255, 1),
+            -1px 1px 0 rgba(25, 0, 255, 1)
+          ;
+        }
+        25% {    
+          text-shadow:      
+          -10px -10px 0 rgba(25, 0, 255, 1),
+          -9px -9px 0 rgba(25, 0, 255, 1), 
+          -8px -8px 0 rgba(25, 0, 255, 1), 
+          -7px -7px 0 rgba(25, 0, 255, 1),
+          -6px -6px 0 rgba(25, 0, 255, 1), 
+          -5px -5px 0 rgba(25, 0, 255, 1),
+          -4px -4px 0 rgba(25, 0, 255, 1),
+          -3px -3px 0 rgba(25, 0, 255, 1),
+          -2px -2px 0 rgba(25, 0, 255, 1),
+          -1px -1px 0 rgba(25, 0, 255, 1),
+          10px 10px 0 rgba(255, 0, 0, 1), 
+          9px 9px 0 rgba(255, 0, 0, 1), 
+          8px 8px 0 rgba(255, 0, 0, 1), 
+          7px 7px 0 rgba(255, 0, 0, 1), 
+          6px 6px 0 rgba(255, 0, 0, 1), 
+          5px 5px 0 rgba(255, 0, 0, 1), 
+          4px 4px 0 rgba(255, 0, 0, 1),
+          3px 3px 0 rgba(255, 0, 0, 1),
+          2px 2px 0 rgba(255, 0, 0, 1),
+          1px 1px 0 rgba(255, 0, 0, 1)  
+          ;
+        }
+        50% {
+          text-shadow:
+          -10px 10px 0 rgba(255, 0, 0, 1), 
+          -9px 9px 0 rgba(255, 0, 0, 1), 
+          -8px 8px 0 rgba(255, 0, 0, 1), 
+          -7px 7px 0 rgba(255, 0, 0, 1), 
+          -6px 6px 0 rgba(255, 0, 0, 1), 
+          -5px 5px 0 rgba(255, 0, 0, 1), 
+          -4px 4px 0 rgba(255, 0, 0, 1),
+          -3px 3px 0 rgba(255, 0, 0, 1),
+          -2px 2px 0 rgba(255, 0, 0, 1),
+          -1px 1px 0 rgba(255, 0, 0, 1),
+          10px -10px 0 rgba(25, 0, 255, 1),
+          9px -9px 0 rgba(25, 0, 255, 1), 
+          8px -8px 0 rgba(25, 0, 255, 1), 
+          7px -7px 0 rgba(25, 0, 255, 1),
+          6px -6px 0 rgba(25, 0, 255, 1), 
+          5px -5px 0 rgba(25, 0, 255, 1),
+          4px -4px 0 rgba(25, 0, 255, 1),
+          3px -3px 0 rgba(25, 0, 255, 1),
+          2px -2px 0 rgba(25, 0, 255, 1),
+          1px -1px 0 rgba(25, 0, 255, 1)
+          ;
+        }
+        75% {
+          text-shadow:
+          10px 10px 0 rgba(25, 0, 255, 1),
+          9px 9px 0 rgba(25, 0, 255, 1), 
+          8px 8px 0 rgba(25, 0, 255, 1), 
+          7px 7px 0 rgba(25, 0, 255, 1),
+          6px 6px 0 rgba(25, 0, 255, 1), 
+          5px 5px 0 rgba(25, 0, 255, 1),
+          4px 4px 0 rgba(25, 0, 255, 1),
+          3px 3px 0 rgba(25, 0, 255, 1),
+          2px 2px 0 rgba(25, 0, 255, 1),
+          1px 1px 0 rgba(25, 0, 255, 1),
+          -10px -10px 0 rgba(255, 0, 0, 1), 
+          -9px -9px 0 rgba(255, 0, 0, 1), 
+          -8px -8px 0 rgba(255, 0, 0, 1), 
+          -7px -7px 0 rgba(255, 0, 0, 1), 
+          -6px -6px 0 rgba(255, 0, 0, 1), 
+          -5px -5px 0 rgba(255, 0, 0, 1), 
+          -4px -4px 0 rgba(255, 0, 0, 1),
+          -3px -3px 0 rgba(255, 0, 0, 1),
+          -2px -2px 0 rgba(255, 0, 0, 1),
+          -1px -1px 0 rgba(255, 0, 0, 1)   
+          ;
+        }
+        100% {
+          text-shadow:
+          10px -10px 0 rgba(255, 0, 0, 1), 
+          9px -9px 0 rgba(255, 0, 0, 1), 
+          8px -8px 0 rgba(255, 0, 0, 1), 
+          7px -7px 0 rgba(255, 0, 0, 1), 
+          6px -6px 0 rgba(255, 0, 0, 1), 
+          5px -5px 0 rgba(255, 0, 0, 1), 
+          4px -4px 0 rgba(255, 0, 0, 1),
+          3px -3px 0 rgba(255, 0, 0, 1),
+          2px -2px 0 rgba(255, 0, 0, 1),
+          1px -1px 0 rgba(255, 0, 0, 1),
+          -10px 10px 0 rgba(25, 0, 255, 1),
+          -9px 9px 0 rgba(25, 0, 255, 1), 
+          -8px 8px 0 rgba(25, 0, 255, 1), 
+          -7px 7px 0 rgba(25, 0, 255, 1),
+          -6px 6px 0 rgba(25, 0, 255, 1), 
+          -5px 5px 0 rgba(25, 0, 255, 1),
+          -4px 4px 0 rgba(25, 0, 255, 1),
+          -3px 3px 0 rgba(25, 0, 255, 1),
+          -2px 2px 0 rgba(25, 0, 255, 1),
+          -1px 1px 0 rgba(25, 0, 255, 1)
+          ;
+        } 
+      }
